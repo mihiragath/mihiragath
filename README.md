@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **React.js,node.js**
 
-- 💬 Ask me about **i am an student of B.E, currently in 2nd year and i am intrested in web development.**
+- 💬 Ask me about **i am an student of B.E, currently in 3rd year and i am intrested in web development.**
 
 - 📫 How to reach me **mihiragath8@gmail.com**
 
