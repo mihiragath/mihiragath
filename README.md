@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="[https://github-profile-trophy.vercel.app/?username=mihiragath&theme=flat&row=1&column=6](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy&psig=AOvVaw2ZzdUv0hPuo-aaqCRL1WqP&ust=1766815650351000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCIy7XL2pEDFQAAAAAdAAAAABAJ)" alt="mihiragath trophies" />
+  <img src="[[https://github-profile-trophy.vercel.app/?username=mihiragath&theme=flat&row=1&column=6](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy&psig=AOvVaw2ZzdUv0hPuo-aaqCRL1WqP&ust=1766815650351000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCIy7XL2pEDFQAAAAAdAAAAABAJ)](https://user-images.githubusercontent.com/6661165/93725426-2c289e80-fbea-11ea-96a4-f6490ccf2126.png)" alt="mihiragath trophies" />
 </p>
 
 ---
