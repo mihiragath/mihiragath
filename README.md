@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mihir Agath</h1>
 <h3 align="center">Full-Stack Developer | Next.js, MERN Stack, Prisma | Prompt Engineering | Open to Part-Time, Internship</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mihiragath&label=Profile%20views&color=0e75b6&style=flat" alt="mihiragath" /> </p>
+<p align="left"> <img src="[https://komarev.com/ghpvc/?username=mihiragath&label=Profile%20views&color=0e75b6&style=flat](https://github-profile-trophy.vercel.app/?username=ryo-ma&row=2&column=3)" alt="mihiragath" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mihiragath" alt="mihiragath" /></a> </p>
 
