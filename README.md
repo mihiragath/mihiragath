@@ -107,7 +107,6 @@
 
 <img src="https://raw.githubusercontent.com/mihiragath/mihiragath/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" width="90%" />
 
-> ⚙️ *The snake animation needs a one-time GitHub Action setup — instructions at the bottom of this file.*
 
 </div>
 
