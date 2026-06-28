@@ -63,6 +63,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![NeonDB](https://img.shields.io/badge/NeonDB-00E599?style=for-the-badge&logo=neon&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 **Tools & DevOps**
 
@@ -84,47 +85,7 @@
 
 ---
 
-## 🌟 Featured Projects
-
-### 🩺 [MediMeet — Telehealth Platform for Video Consultations](#)
-Resilient doctor–patient video consultations powered by the Vonage Video API, with robust error handling and session recovery cutting connection failures from **12% to 3%**.
-- ⚡ Optimized backend query flow and server-side caching — **65% higher peak throughput** under heavy concurrent load
-- 📅 End-to-end appointment scheduling & subscriptions with Clerk auth and NeonDB — **+50% confirmed bookings**
-
-`Next.js` `Prisma` `NeonDB` `Clerk` `Vonage API`
-
----
-
-### 🎯 [Intervio — AI-Powered Interview Marketplace](#)
-A full-stack AI interview marketplace with live mock sessions and AI-generated feedback, cutting candidate prep effort by **60%**.
-- 🎥 Real-time conferencing & messaging via Stream Video/Chat APIs — **70% fewer interaction delays**
-- 🛡️ Secure SaaS architecture with Google Auth, Arcjet rate limiting & bot protection — **80% of unauthorized requests blocked**
-
-`Next.js` `React` `Tailwind CSS` `ShadCN UI` `Supabase` `PostgreSQL` `Stream` `Arcjet`
-
----
-
-### 🧭 [Career Coach — AI Resume & Career Guidance Platform](#)
-AI-driven career recommendations and resume analysis powered by Gemini AI to boost user engagement.
-- ⚡ Server-side caching & Next.js Server Actions — median response time **450ms → 180ms (60% faster)**
-- 🔄 Reliable async background jobs (AI processing, email workflows) via Inngest for better resilience
-
-`Next.js` `Prisma` `Gemini AI` `Inngest` `Vercel`
-
----
-
-### 📚 [Responsive E-Learning Platform (MERN)](#)
-A full-stack platform with role-based Admin and Student workflows for course creation, lecture management, and user administration at scale.
-- 💳 Stripe payment gateway for checkout & transaction tracking
-- 🔐 JWT-based authentication with protected API routes and persistent sessions
-
-`MongoDB` `Express.js` `React.js` `Node.js` `JWT` `Stripe`
-
-> 💡 *Replace the `#` links above with your actual Live Demo / GitHub repo URLs for each project.*
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Activity
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=mihiragath&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
@@ -133,6 +94,21 @@ A full-stack platform with role-based Admin and Student workflows for course cre
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihiragath&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mihiragath&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="48%" />
+</div>
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=mihiragath&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" width="90%" />
+</div>
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<img src="https://raw.githubusercontent.com/mihiragath/mihiragath/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" width="90%" />
+
+> ⚙️ *The snake animation needs a one-time GitHub Action setup — instructions at the bottom of this file.*
+
 </div>
 
 ---
@@ -168,3 +144,45 @@ I enjoy deep problem-solving, optimizing systems, and turning ideas into scalabl
 <img src="https://capsule-render.vercel.app/api?type=waving&color=2F80ED&height=100&section=footer" width="100%"/>
 
 </div>
+
+---
+
+<details>
+<summary>⚙️ How to enable the contribution-snake animation (one-time setup)</summary>
+
+<br/>
+
+1. In your `mihiragath/mihiragath` repo, go to **Settings → Secrets and variables → Actions** (no secrets needed, this uses the default token).
+2. Create `.github/workflows/snake.yml` with:
+
+```yaml
+name: Generate Snake
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: mihiragath
+          outputs: dist/github-contribution-grid-snake.svg
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Push it once — after the action runs, the snake image in this README will populate automatically.
+
+</details>
