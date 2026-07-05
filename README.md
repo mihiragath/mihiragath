@@ -21,7 +21,7 @@
 
 ## 🚀 About Me
 
-- 🎓 B.E. Computer Science student at **Govt. Engineering College, Patan (GTU)** — CGPA 7.89
+- 🎓 B.E. Computer Science student at **Govt. Engineering College, Patan (GTU)** — CGPA 8.91
 - 🏅 Diploma in Computer Engineering from **Govt. Polytechnic, Ahmedabad** — CGPA 8.44
 - 💻 I build **AI-integrated, production-ready** web apps with React, Next.js & Node.js
 - 🔐 Skilled in **secure SaaS architectures**, REST API design, and backend performance optimization
